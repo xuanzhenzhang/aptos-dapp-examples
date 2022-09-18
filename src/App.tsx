@@ -20,7 +20,7 @@ function hexToString(text: string) {
 }
 
 function App() {
-  // Retrieve aptos.account on initial render and store it.
+  // Retrieve aptos.account on initial render and store it
   const [address, setAddress] = React.useState<string | null>(null);
   React.useEffect(() => {
     window.aptos
